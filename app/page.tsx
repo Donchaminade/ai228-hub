@@ -3,7 +3,7 @@
 import { useState, useMemo } from 'react';
 import AICard from '../components/AICard';
 import CategoryFilter from '../components/CategoryFilter';
-import { AIsData, AI } from '../data/ai';
+import { AIsData, type AI } from '../data/ai';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
     }
 
     return filtered;
-  }, [AIsData, searchQuery, selectedCategories]);
+  }, [searchQuery, selectedCategories]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -61,7 +61,7 @@ export default function Home() {
 
           {filteredAIs.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-muted-foreground text-lg">Aucune IA ne correspond à votre recherche.</p>
+              <p className="text-muted-foreground text-lg"> Aucune IA ne correspond à votre recherche.</p>
             </div>
           )}
         </section>
@@ -71,7 +71,7 @@ export default function Home() {
             Partagez un outil IA !
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Vous utilisez une IA qui n'est pas dans la liste ? Contribuez à la plateforme en l'ajoutant.
+            Vous utilisez une IA qui n&apos;est pas dans la liste ? Contribuez à la plateforme en l&apos;ajoutant.
           </p>
           <a
             href="https://github.com/Donchaminade/ai228-hub/blob/master/data/ai.json"

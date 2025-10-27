@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { AI } from '../data/ai';
+import type { AI } from '../data/ai';
 
 interface CategoryFilterProps {
   AIs: AI[];
