@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "ChatGPT",
+    "description": "Assistant IA développé par OpenAI, utile pour le code, le contenu et le brainstorming.",
+    "link": "https://chat.openai.com/",
+    "category": "Contenu",
+    "author": "Docteur-Parfait",
+    "date_added": "2025-10-27",
+    "utilisation": "Je l’utilise pour générer des idées de textes, corriger mes écrits et trouver des solutions de code rapidement."
+  },
+  {
+    "id": 2,
+    "name": "Midjourney",
+    "description": "Outil de génération d’images artistiques à partir de texte.",
+    "link": "https://midjourney.com/",
+    "category": "Images",
+    "author": "Chaminade",
+    "date_added": "2025-10-27",
+    "utilisation": "Je décris une scène en français simple, et Midjourney me génère des visuels magnifiques pour mes designs et présentations."
+  }
+]
