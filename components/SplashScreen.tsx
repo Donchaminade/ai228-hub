@@ -88,9 +88,9 @@ export default function SplashScreen({ onAnimationComplete }: SplashScreenProps)
           transition={{ duration: 0.5 }}
           className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white" // Responsive font sizes
         >
-          {displayText.slice(0, 2)} {/* 'AI' in white */}
+          <span className="text-yellow-500">{displayText.slice(0, 2)}</span>{/* 'AI' in yellow */}
           <span className="text-primary">{displayText.slice(2, 5)}</span> {/* '228' in primary */}
-          {displayText.slice(5, 9)} {/* ' Hub' in white */}
+          <span className="text-red-500">{displayText.slice(5, 9)}</span>{/* ' Hub' in red */}
         </motion.h1>
       )}
     </motion.div>

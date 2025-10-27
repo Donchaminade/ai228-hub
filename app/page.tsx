@@ -37,7 +37,7 @@ export default function Home() {
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            AI<span className="text-primary">228</span> Hub
+            <span className="text-yellow-500">AI</span> <span className="text-primary">228</span> <span className="text-red-500">Hub</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             La plateforme communautaire qui recense les meilleures intelligences artificielles (IA) utilisées par les Togolais.
