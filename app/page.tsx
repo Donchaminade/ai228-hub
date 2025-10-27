@@ -2,13 +2,12 @@
 
 import { useState, useMemo } from 'react';
 import AICard from '../components/AICard';
-import CategoryFilter from '../components/CategoryFilter';
+
 import { AIsData, type AI } from '../data/ai';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   const filteredAIs = useMemo(() => {
     let filtered = AIsData;
@@ -22,13 +21,10 @@ export default function Home() {
       );
     }
 
-    // Filter by selected categories
-    if (selectedCategories.length > 0) {
-      filtered = filtered.filter(ai => selectedCategories.includes(ai.category));
-    }
+
 
     return filtered;
-  }, [searchQuery, selectedCategories]);
+  }, [searchQuery]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -45,14 +41,6 @@ export default function Home() {
         </div>
 
         <section className="mb-16">
-          <CategoryFilter 
-            AIs={AIsData} 
-            searchQuery={searchQuery} 
-            setSearchQuery={setSearchQuery} 
-            selectedCategories={selectedCategories}
-            setSelectedCategories={setSelectedCategories}
-          />
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredAIs.map(ai => (
               <AICard key={ai.id} ai={ai} />
