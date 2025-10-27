@@ -18,14 +18,14 @@ export default function Navbar() {
             height={24}
             className=" object-contain w-7 mr-2"
           />
-          <h1 className="text-xl font-bold text-foreground">OS228</h1>
+          <h1 className="text-xl font-bold text-foreground">AI228 Hub</h1>
         </div>
 
         {/* Navigation items */}
         <div className="flex items-center space-x-4">
           {/* Bouton Contribute avec logo GitHub */}
           <a
-                          href="https://github.com/Donchaminade/ai228-hub"
+                          href="https://github.com/Donchaminade/ai228-hub/"
             
             target="_blank"
             rel="noopener noreferrer"

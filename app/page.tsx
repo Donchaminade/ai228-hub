@@ -74,7 +74,7 @@ export default function Home() {
             Vous utilisez une IA qui n'est pas dans la liste ? Contribuez à la plateforme en l'ajoutant.
           </p>
           <a
-            href="https://github.com/Donchaminade/ai228-hub"
+            href="https://github.com/Donchaminade/ai228-hub/blob/master/data/ai.json"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-200"
