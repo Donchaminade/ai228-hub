@@ -1,6 +1,18 @@
-[AI228 Logo](https://img.shields.io/badge/AI228-Hub%20Togolais%20d'IA-green?style=for-the-badge&logo=github)
+![AI228 Logo](https://img.shields.io/badge/AI228-Hub%20Togolais%20d'IA-green?style=for-the-badge&logo=github)
 ![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-orange?style=for-the-badge&logo=digitalocean)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+![Last Commit](https://img.shields.io/github/last-commit/Donchaminade/ai228-hub?style=for-the-badge)
+![Open Issues](https://img.shields.io/github/issues/Donchaminade/ai228-hub?style=for-the-badge)
+![Open PRs](https://img.shields.io/github/issues-pr/Donchaminade/ai228-hub?style=for-the-badge)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?style=for-the-badge&logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-OpenSource-pink?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge)
+
 
 **AI228 Hub** est une plateforme open source qui recense les **meilleures intelligences artificielles (IA)** utilisées par les Togolais au quotidien.
 Chaque utilisateur peut partager ses outils IA préférés **par catégorie**, expliquer **comment il les utilise**, et **découvrir de nouvelles IA** adaptées à ses besoins.
