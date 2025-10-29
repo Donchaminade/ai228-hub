@@ -18,5 +18,16 @@
     "author": "Chaminade",
     "date_added": "2025-10-27",
     "utilisation": "Je décris une scène en français simple, et Midjourney me génère des visuels magnifiques pour mes designs et présentations."
-  }
+  },
+  {
+  "id": 3,
+  "name": "OpenRouter",
+  "description": "Plateforme permettant d’accéder à plusieurs modèles d’intelligence artificielle via une seule API.",
+  "link": "https://openrouter.ai/",
+  "category": "IA & API",
+  "author": "Prince Ekpinse",
+  "date_added": "2025-10-27",
+  "utilisation": "J’utilise OpenRouter pour tester différents modèles d’IA (comme GPT, Claude ou Mistral) à partir d’une interface unique et facile à intégrer dans mes projets."
+}
+
 ]
