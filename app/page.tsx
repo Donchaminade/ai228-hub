@@ -17,11 +17,10 @@ export default function Home() {
       filtered = filtered.filter(ai =>
         ai.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         ai.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        ai.utilisation.toLowerCase().includes(searchQuery.toLowerCase())
+        ai.utilisation.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        ai.category.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
-
-
 
     return filtered;
   }, [searchQuery]);
@@ -38,6 +37,18 @@ export default function Home() {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             La plateforme communautaire qui recense les meilleures intelligences artificielles (IA) utilisées par les Togolais.
           </p>
+        </div>
+
+        {/* Add input for search on AIs with either name, description, utilisation or category */}
+        
+        <div>
+          <input
+            type="text"
+            placeholder="Rechercher une IA, une catégorie, une utilisation..."
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            className="w-full border border-border rounded-lg px-4 py-3 mb-8 bg-inp text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+          />
         </div>
 
         <section className="mb-16">

@@ -92,25 +92,6 @@ Le “228” fait référence à l’indicatif téléphonique du Togo 🇹🇬 �
 
 ---
 
-## 🔐 Configuration de l'authentification GitHub *(optionnelle)*
-
-Si tu veux permettre aux utilisateurs de se connecter avec leur compte GitHub :
-
-1. Crée une **GitHub OAuth App**
-
-2. Configure ton `.env.local` :
-
-   ```bash
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=votre-secret-aleatoire
-   GITHUB_CLIENT_ID=votre-client-id
-   GITHUB_CLIENT_SECRET=votre-client-secret
-   ```
-
-3. Redémarre le serveur.
-
----
-
 ## 🤝 Comment contribuer
 
 Nous accueillons toutes les contributions, que ce soit du **code**, de la **documentation** ou simplement **l’ajout d’une IA** !
